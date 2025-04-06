@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bgImgage-container {
+    background-image: url(https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    /*   height: 250px;
+  width: 430px; */
+    height: 270px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+@media screen and (min-width : 768px) {
+    .bgImgage-container {
+        height: 350px;
+    }
+}
+
+
+.what-to-do-container {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.checkbox_input {
+    size: 30px;
+
+}
+
+.heading {
+    font-family: "Lobster";
+    margin-left: 15px;
+    padding-top: 10px;
+    align-self: flex-Start;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 850px;
+    width: 90%;
+}
+
+@media screen and (min-width : 768px) {
+    .con {
+        flex-direction: row;
+
+    }
+}
+
+@media screen and (min-width : 768px) {
+    .heading {
+        font-size: 55px;
+    }
+}
+
+@media screen and (min-width : 768px) {
+    .heading {
+        order: 0;
+        width: 50%;
+        max-width: 400px;
+        align-self: auto;
+    }
+}
+
+.what-to-do {
+    height: 30px;
+    width: 130px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-width: 2px;
+    border-color: #A9A9A9;
+    font-family: "Lobster";
+    border-radius: 5px;
+}
+
+.add {
+    height: 30px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 17px;
+    background-color: #8B4513;
+    color: #A9A9A9;
+    font-family: "Lobster";
+}
+
+.another-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 400px;
+
+}
+
+@media (orientation: landscape) {
+    .another-container {
+        background-image: linear-gradient(to bottom, #D2B48C, #F5F5DC, #D2B48C);
+        ;
+    }
+}
+
+@media (orientation: portrait) {
+    .another-container {
+        background-image: linear-gradient(to right, #D2B48C, #F5F5DC, #D2B48C);
+    }
+}
+
+.delete_icon {
+    /*  display: inline-block;
+   font-size: 20px; */
+    color: black;
+    padding: 15px;
+
+}
+
+.label_container {
+    background-color: #A9A9A9;
+    width: 300px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #8B4513;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+    margin-right: 10px;
+
+}
+
+.checkbox_input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 15px;
+}
+
+.task {
+    font-family: "Lobster";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.delete_icon_container {
+    text-align: right;
+    width: 18%;
+
+}
+
+.todoItemContainer {
+    padding: 5px;
+}
+
+.checked {
+    text-decoration: line-through;
+}

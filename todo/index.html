@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="bgImgage-container">
+        <div class="con">
+            <h1 class="heading">To do List</h1>
+            <div class="what-to-do-container">
+                <input type="text" placeholder=" What to do ?" class="what-to-do " id="todo_user_input" />
+                <button class="btn  add" id="add_btn">Add</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="another-container">
+        <h1 class="heading">My Tasks:</h1>
+        <ul class="todoItemsContainer" id="todoItemsContainer">
+            <!-- <li class="todoItemContainer d-flex flex-row">
+                <input type="checkbox" class="checkbox-input" id="checkbox-input" />
+                <div class="lable-container d-flex flex-row">
+                    <label for="checkbox-input" class="Task">Learn html</label>
+                    <div class="delete_icon_container">
+                        <i class="far fa-trash-alt delete-icon"></i>
+                    </div>
+                </div>
+            </li> -->
+        </ul>
+        <button class="btn add" id="savebtn">Save</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
